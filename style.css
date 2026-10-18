@@ -13,3 +13,15 @@ body{
 #homepg {
     padding: 50px 20px;
 }
+
+#intro{
+    position:fixed;
+    inset:0;
+    z-index: 1000;
+}
+
+#intro video {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
