@@ -69,6 +69,7 @@ body{
 #GHtext {
     font-size: 20px;
     margin-bottom: 15px;
+    color:white;
 }
 
 #GHoptions {
@@ -76,4 +77,8 @@ body{
     width:100%;
     margin-top: 10px;
     font-family:"Special Elite", serif;
+}
+
+#GHoptions button:hover {
+    background: red;
 }
