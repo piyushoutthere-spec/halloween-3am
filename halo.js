@@ -12,6 +12,8 @@ const ghosttext = document.getElementById("GHtext");
 const option1 = document.getElementById("option1");
 const option2 = document.getElementById("option2");
 
+const FS=document.getElementById("FS");
+
 let introF = false;
 let GHstep = 0;
 
@@ -82,7 +84,7 @@ function showghostline() {
 function nextGHline() {
     GHstep++;
 
-    if (GHstep >= ghostLines.length) {
+    if (GHstep >= GHlines.length) {
         endconvo();
         return;
     }
@@ -92,6 +94,8 @@ function nextGHline() {
 function endconvo(){
     ghostvid.pause();
     homepg.style.display="none";
+
+    FS.classList.add("active");
 }
 
 option1.addEventListener("click",nextGHline);
