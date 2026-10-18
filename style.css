@@ -55,3 +55,25 @@ body{
     margin-top: 20px;
     object-fit: contain;
 }
+
+#GHdialogue {
+    display: none;
+    width: min(400px,90vw);
+    padding: 20px;
+    margin-top: 15px;
+    text-align: center;
+    background: black;
+    color:white;
+}
+
+#GHtext {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#GHoptions {
+    display:block;
+    width:100%;
+    margin-top: 10px;
+    font-family:"Special Elite", serif;
+}

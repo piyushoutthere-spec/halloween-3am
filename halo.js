@@ -20,6 +20,10 @@ function finishintro() {
     ghostvid.currentTime = 0;
 
     ghostvid.play()
+
+    setTimeout(() => {
+        GHdialogue.style.display = "block";
+    },3000);
 }
 
 video.addEventListener("ended", finishintro);
