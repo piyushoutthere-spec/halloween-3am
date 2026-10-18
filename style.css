@@ -6,12 +6,32 @@
 body{
     background: black; /*for now to check */
     color: white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:"Special Elite",Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 
 #homepg {
-    padding: 50px 20px;
+    display: none;
+    padding: 20px;
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-image: url("assests/Happy\ Holidays.gif") , url("assests/Happy\ Holidays.gif") , url("assests/monuments\ to\ the\ dead.jpg");
+    background-position: left center,right center, center center;
+    background-repeat: no-repeat;
+    background-size: 450px,450px,cover;
+    flex-direction: column;
+}
+
+#homepg h1 {
+    font-family: "Creepster", cursive;
+    margin-bottom: 10px;
+    color:beige;
+}
+
+#homepg p {
+    color:red;
+    font-size: 25px;
 }
 
 #intro{
